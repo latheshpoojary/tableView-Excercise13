@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table View And ES6</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>Table And ES6 Array Function</h1>
+    <input type="search" class="form-control" placeholder="Search..." id="search">
+    <table class="table table-striped">
+      <thead>
+        <tr class="bg-info">
+          
+          <th data-column="title" data-order="desc">Title &#9650;</th>
+          <th data-column="imdb" data-order="desc">IMDB rating &#9650;</th>
+          <th data-column="tomatoes" data-order="desc">Tomatoes rating &#9650;</th>
+          <th data-column="total" data-order="desc">Total Rating &#9650;</th>
+          <th data-column="view" data-order="desc" class="view">View &#9650;</th>
+        </tr>
+      </thead>
+      <tbody id="myTable">
+        
+      </tbody>
+    </table>
+   <div class="container">
+      <div id="pagination-wraper">
+        
+      </div>
+   </div>
+    <script src="./script.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
+</html>
