@@ -1,23 +1,33 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-h1{
-    text-align: center;
+h1 {
+  text-align: center;
 }
-.form-control{
-    width: 70%;
-    margin-bottom: 3rem;
+.form-control {
+  width: 70%;
+  margin-bottom: 3rem;
 }
-.view{
-    max-width: 100ch;
-    overflow: hidden;
+.view {
+  max-width: 100ch;
+  overflow: hidden;
 }
-th{
-    cursor: pointer;
+th,
+td {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 50ch;
 }
-button{
-    width: 10rem;
-    margin-right: 1rem;
+td:nth-child(1){
+    white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 10ch;
+}
+button {
+  width: 10rem;
+  margin-right: 1rem;
 }

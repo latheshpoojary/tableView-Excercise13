@@ -18,8 +18,19 @@ h1 {
   overflow: hidden;
 }
 
-th {
-  cursor: pointer;
+th,
+td {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 50ch;
+}
+
+td:nth-child(1) {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 10ch;
 }
 
 button {
